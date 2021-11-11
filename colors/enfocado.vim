@@ -496,7 +496,7 @@ endif
 " }}}
 " Telescope: {{{
   highlight! link TelescopeBorder EnfocadoDimmeds
-  highlight! link TelescopeMatching EnfocadoFg
+  highlight! link TelescopeMatching EnfocadoFg2
   highlight! link TelescopeMultiSelection EnfocadoVisual
   highlight! link TelescopeNormal EnfocadoComments
   highlight! link TelescopePreviewDate EnfocadoFg
