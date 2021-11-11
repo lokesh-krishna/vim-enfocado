@@ -494,4 +494,7 @@ endif
   highlight! link SignifySignChange EnfocadoDiffChange
   highlight! link SignifySignDelete EnfocadoDiffDelete
 " }}}
+" Telescope: {{{
+  highlight! link TelescopeBorder EnfocadoDimmeds
+" }}}
 " vim: set foldmethod=marker:
