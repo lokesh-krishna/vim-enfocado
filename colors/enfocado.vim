@@ -112,6 +112,7 @@ call s:Hl("EnfocadoSearch", s:bold, s:br_cyan, s:bg_1, s:none)
 call s:Hl("EnfocadoShadows", s:none, s:shadow_0, s:none, s:none)
 call s:Hl("EnfocadoVisual", s:bold, s:bg_2, s:none, s:none)
 call s:Hl("EnfocadoFloat", s:none, s:bg_1, s:fg_0, s:none)
+call s:Hl("EnfocadoFloatBorder", s:none, s:bg_0, s:bg_2, s:none)
 if g:enfocado_style == "neon"
   " Enfocado neon...
   call s:Hl("EnfocadoAccent", s:none, s:none, s:magenta, s:none)
