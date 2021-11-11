@@ -496,5 +496,22 @@ endif
 " }}}
 " Telescope: {{{
   highlight! link TelescopeBorder EnfocadoDimmeds
+  highlight! link TelescopeMatching EnfocadoFg
+  highlight! link TelescopeMultiSelection EnfocadoFg2
+  highlight! link TelescopeNormal EnfocadoComments
+  highlight! link TelescopePreviewDate EnfocadoFg
+  highlight! link TelescopePreviewGroup EnfocadoFg
+  highlight! link TelescopePreviewLink EnfocadoConstants
+  highlight! link TelescopePreviewMatch EnfocadoKeywords
+  highlight! link TelescopePromptPrefix EnfocadoFg
+  highlight! link TelescopeSelectionCaret EnfocadoFg
+  highlight! link TelescopePreviewRead EnfocadoAlertsOrange
+  highlight! link TelescopePreviewSize EnfocadoAlertsGreen
+  highlight! link TelescopePreviewUser MoonflyGrey246
+  highlight! link TelescopeResultsDiffAdd EnfocadoDiffAdd
+  highlight! link TelescopeResultsDiffChange EnfocadoDiffDelete
+  highlight! link TelescopeResultsSpecialComment EnfocadoComments
+  highlight! link TelescopeTitle EnfocadoComments
+  highlight! link TelescopeSelection EnfocadoDimmeds
 " }}}
 " vim: set foldmethod=marker:
