@@ -234,7 +234,7 @@ highlight! link Underlined EnfocadoUnderlineds
 highlight! link Delimiter EnfocadoFg2
 highlight! link Todo EnfocadoHl
 highlight! link NormalFloat EnfocadoFloat
-highlight! link FloatBorder EnfocadoDimmeds
+highlight! link FloatBorder EnfocadoFloatBorder
 
 " ------------------------------------------------------------------------------
 " SECTION: Syntax language highlight groups.
