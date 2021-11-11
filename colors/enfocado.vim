@@ -497,7 +497,7 @@ endif
 " Telescope: {{{
   highlight! link TelescopeBorder EnfocadoDimmeds
   highlight! link TelescopeMatching EnfocadoFg
-  highlight! link TelescopeMultiSelection EnfocadoFg2
+  highlight! link TelescopeMultiSelection EnfocadoVisual
   highlight! link TelescopeNormal EnfocadoComments
   highlight! link TelescopePreviewDate EnfocadoFg
   highlight! link TelescopePreviewGroup EnfocadoFg
@@ -512,6 +512,6 @@ endif
   highlight! link TelescopeResultsDiffChange EnfocadoDiffDelete
   highlight! link TelescopeResultsSpecialComment EnfocadoComments
   highlight! link TelescopeTitle EnfocadoComments
-  highlight! link TelescopeSelection EnfocadoDimmeds
+  highlight! link TelescopeSelection EnfocadoVisual
 " }}}
 " vim: set foldmethod=marker:
