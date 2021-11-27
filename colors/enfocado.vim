@@ -605,4 +605,8 @@ endif
   highlight! link TelescopeTitle EnfocadoComments
   highlight! link TelescopeSelection EnfocadoVisual
 " }}}
+" Telekasten: {{{
+  call s:Hl("tkLink", s:italic, s:none, s:dim_0, s:none)
+  call s:Hl("tkBrackets", s:italic, s:none, s:dim_0, s:none)
+" }}}
 " vim: set foldmethod=marker:
