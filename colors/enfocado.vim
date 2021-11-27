@@ -607,6 +607,6 @@ endif
 " }}}
 " Telekasten: {{{
   call s:Hl("tkLink", s:italic, s:none, s:dim_0, s:none)
-  call s:Hl("tkBrackets", s:italic, s:none, s:dim_0, s:none)
+  highlight! link tkBrackets EnfocadoComments
 " }}}
 " vim: set foldmethod=marker:
